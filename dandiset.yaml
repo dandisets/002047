@@ -14,11 +14,16 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Plusnin, Viktor (2026) Hippocampal CA1 one-photon calcium imaging and pose-tracked
-  behavior in wild-type and 5xFAD mice across four behavioral paradigms (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002047/draft
+citation: Plusnin, Viktor; Pospelov, Nikita; Rogozhnikova, Olga; Ivanova, Anna; Sotskov,
+  Vladimir; Toropova, Ksenia; Ivashkina, Olga; Anokhin, Konstantin; Savelev, Nikita
+  (2026) Hippocampal CA1 one-photon calcium imaging and pose-tracked behavior in wild-type
+  and 5xFAD mice across four behavioral paradigms (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/002047/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
   email: witkax@mail.ru
   identifier: 0000-0001-9784-8283
   includeInCitation: true
@@ -27,30 +32,73 @@ contributor:
   - dcite:ContactPerson
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0001-6637-2120
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
+  identifier: 0000-0001-6637-2120
+  includeInCitation: true
   name: Pospelov, Nikita
   roleName:
   - dcite:Author
+  - dcite:Software
   schemaKey: Person
-- identifier: 0000-0002-2540-4402
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
+  identifier: 0000-0002-2540-4402
+  includeInCitation: true
   name: Rogozhnikova, Olga
   schemaKey: Person
-- identifier: 0000-0002-2454-1288
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
+  identifier: 0000-0002-2454-1288
+  includeInCitation: true
   name: Ivanova, Anna
   schemaKey: Person
-- identifier: 0000-0002-1729-5744
+- affiliation:
+  - identifier: https://ror.org/01mvzn566
+    name: Center for Interdisciplinary Research in Biology, Collège de France
+    schemaKey: Affiliation
+  identifier: 0000-0002-1729-5744
+  includeInCitation: true
   name: Sotskov, Vladimir
   schemaKey: Person
-- identifier: 0000-0003-3081-2133
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
+  identifier: 0000-0003-3081-2133
+  includeInCitation: true
   name: Toropova, Ksenia
   schemaKey: Person
-- identifier: 0000-0002-1540-7677
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
+  identifier: 0000-0002-1540-7677
+  includeInCitation: true
   name: Ivashkina, Olga
   schemaKey: Person
-- identifier: 0000-0003-4437-6002
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
+  identifier: 0000-0003-4437-6002
+  includeInCitation: true
   name: Anokhin, Konstantin
   schemaKey: Person
-- {}
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
+  identifier: 0009-0006-8084-735X
+  includeInCitation: true
+  name: Savelev, Nikita
+  schemaKey: Person
 dateCreated: '2026-11-03T15:28:28.212273+00:00'
 description: 'We present a one-photon miniscope calcium-imaging dataset from dorsal
   hippocampal CA1 of mice (GCaMP6s, GRIN lens, UCLA Miniscope V4.4), comprising approximately
