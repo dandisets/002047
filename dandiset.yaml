@@ -11,11 +11,43 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 167779949
+  numberOfFiles: 15
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Plusnin, Viktor; Pospelov, Nikita; Rogozhnikova, Olga; Ivanova, Anna; Sotskov,
-  Vladimir; Toropova, Ksenia; Ivashkina, Olga; Anokhin, Konstantin; Savelev, Nikita
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Position
+  - PlaneSegmentation
+  - ProcessingModule
+  - SpatialSeries
+  - BehavioralTimeSeries
+  - OnePhotonSeries
+  - OpticalChannel
+  - ImagingPlane
+citation: Plusnin, Viktor; Pospelov, Nikita; Ivanova, Anna; Rogozhnikova, Olga; Savelev,
+  Nikita; Sotskov, Vladimir; Toropova, Ksenia; Ivashkina, Olga; Anokhin, Konstantin
   (2026) Hippocampal CA1 one-photon calcium imaging and pose-tracked behavior in wild-type
   and 5xFAD mice across four behavioral paradigms (Version draft) [Data set]. DANDI
   Archive. https://dandiarchive.org/dandiset/002047/draft
@@ -47,6 +79,14 @@ contributor:
   - identifier: https://ror.org/010pmpe69
     name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
     schemaKey: Affiliation
+  identifier: 0000-0002-2454-1288
+  includeInCitation: true
+  name: Ivanova, Anna
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
   identifier: 0000-0002-2540-4402
   includeInCitation: true
   name: Rogozhnikova, Olga
@@ -55,9 +95,9 @@ contributor:
   - identifier: https://ror.org/010pmpe69
     name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
     schemaKey: Affiliation
-  identifier: 0000-0002-2454-1288
+  identifier: 0009-0006-8084-735X
   includeInCitation: true
-  name: Ivanova, Anna
+  name: Savelev, Nikita
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/01mvzn566
@@ -90,14 +130,6 @@ contributor:
   identifier: 0000-0003-4437-6002
   includeInCitation: true
   name: Anokhin, Konstantin
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/010pmpe69
-    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
-    schemaKey: Affiliation
-  identifier: 0009-0006-8084-735X
-  includeInCitation: true
-  name: Savelev, Nikita
   schemaKey: Person
 dateCreated: '2026-11-03T15:28:28.212273+00:00'
 description: 'We present a one-photon miniscope calcium-imaging dataset from dorsal
