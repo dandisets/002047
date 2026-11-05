@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,8 +11,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Plusnin, Viktor (2026) Mouse Hippocampal One-Photon Calcium Imaging Dataset
-  During Free Exploration Tasks (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002047/draft
+citation: Plusnin, Viktor (2026) Hippocampal CA1 one-photon calcium imaging and pose-tracked
+  behavior in wild-type and 5xFAD mice across four behavioral paradigms (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002047/draft
 contributor:
 - affiliation: []
   email: witkax@mail.ru
@@ -21,29 +23,55 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-11-03T15:28:28.212273+00:00'
-description: 'We present a one-photon calcium-imaging dataset from dorsal hippocampal
-  CA1, comprising approximately 27,700 neurons recorded in 201 sessions from 47 mice
-  during free exploration and contextual fear learning. It covers four paradigms:
-  an enriched open field, a marked open field, an open field, and a context pre-exposure
-  facilitation effect task, with 12 to 25 mice in each. In the open field and the
-  context pre-exposure task, wild-type and 5×FAD mice received saline or the NMDA
-  receptor antagonist MK-801, and all four groups were recorded and processed with
-  the same procedures. Every session carries synchronized behavioral video, pose estimates
-  and annotated behavioral variables describing spatial occupancy, locomotor state,
-  rearing, freezing and object interaction. The dataset holds each stage of processing:
-  raw miniscope movies, source-extraction parameters, spatial footprints and traces
-  of retained and rejected components, curation decisions, detected calcium events,
-  cross-session neuronal matches and mutual-information behavioral selectivity results.'
+description: 'We present a one-photon miniscope calcium-imaging dataset from dorsal
+  hippocampal CA1 of mice (GCaMP6s, GRIN lens, UCLA Miniscope V4.4), comprising approximately
+  27,700 unique neurons recorded in 201 sessions from 47 mice during open field free
+  exploration and contextual fear learning. It covers three open-field paradigms —
+  a standard open field, an open field with marked floor patterns and an open field
+  enriched with objects, and a context pre-exposure facilitation effect (CPFE) task,
+  with 12 to 25 mice in each. In the standard open field and the CPFE task, wild-type
+  and 5xFAD mice received saline or the NMDA-receptor antagonist MK-801. All sessions
+  were recorded with the same imaging system and processed with the same pipeline.
+  Every session includes synchronized behavioral video, DeepLabCut pose estimates
+  and annotated behavioral variables: spatial occupancy and locomotor state in all
+  paradigms, and rearing, freezing and object interaction where applicable. The dataset
+  holds each stage of processing in NWB format: raw miniscope movies, source-extraction
+  parameters, spatial footprints and traces of retained and rejected components, curation
+  decisions, detected calcium events, cross-session neuronal matches and INTENSE mutual-information
+  selectivity results.'
+ethicsApproval: []
 id: DANDI:002047/draft
 identifier: DANDI:002047
+keywords:
+- hippocampus
+- CA1
+- one-photon calcium imaging
+- miniscope
+- GCaMP6s
+- place cells
+- open field
+- contextual fear conditioning
+- context pre-exposure facilitation effect
+- 5xFAD
+- Alzheimer's disease model
+- MK-801
+- NMDA receptor
+- DeepLabCut
+- pose estimation
+- cross-session cell tracking
+- NWB
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002047/versions/draft/assets/
-name: Mouse Hippocampal One-Photon Calcium Imaging Dataset During Free Exploration
-  Tasks
+name: Hippocampal CA1 one-photon calcium imaging and pose-tracked behavior in wild-type
+  and 5xFAD mice across four behavioral paradigms
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- CA1 field of hippocampus
 url: https://dandiarchive.org/dandiset/002047/draft
 version: draft
+wasGeneratedBy: []
