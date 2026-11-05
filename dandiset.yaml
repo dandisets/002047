@@ -29,8 +29,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 4396157691
-  numberOfFiles: 90
+  numberOfBytes: 4405544867
+  numberOfFiles: 91
   numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
@@ -131,6 +131,10 @@ contributor:
   includeInCitation: true
   name: Anokhin, Konstantin
   schemaKey: Person
+- name: Non-Commercial Foundation for Support of Science and Education "INTELLECT"
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-11-03T15:28:28.212273+00:00'
 description: 'We present a one-photon miniscope calcium-imaging dataset from dorsal
   hippocampal CA1 of mice (GCaMP6s, GRIN lens, UCLA Miniscope V4.4), comprising approximately
