@@ -29,8 +29,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 6973012362
-  numberOfFiles: 124
+  numberOfBytes: 6974057496
+  numberOfFiles: 125
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
@@ -46,8 +46,8 @@ assetsSummary:
   - OnePhotonSeries
   - OpticalChannel
   - ImagingPlane
-citation: Plusnin, Viktor; Pospelov, Nikita; Ivanova, Anna; Rogozhnikova, Olga; Savelev,
-  Nikita; Sotskov, Vladimir; Toropova, Ksenia; Ivashkina, Olga; Anokhin, Konstantin
+citation: Plusnin, Viktor; Rogozhnikova, Olga; Sotskov, Vladimir; Pospelov, Nikita;
+  Ivanova, Anna; Savelev, Nikita; Toropova, Ksenia; Ivashkina, Olga; Anokhin, Konstantin
   (2026) Hippocampal CA1 one-photon calcium imaging and pose-tracked behavior in wild-type
   and 5xFAD mice across four behavioral paradigms (Version draft) [Data set]. DANDI
   Archive. https://dandiarchive.org/dandiset/002047/draft
@@ -63,6 +63,22 @@ contributor:
   roleName:
   - dcite:ContactPerson
   - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/010pmpe69
+    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
+    schemaKey: Affiliation
+  identifier: 0000-0002-2540-4402
+  includeInCitation: true
+  name: Rogozhnikova, Olga
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01mvzn566
+    name: Center for Interdisciplinary Research in Biology, Collège de France
+    schemaKey: Affiliation
+  identifier: 0000-0002-1729-5744
+  includeInCitation: true
+  name: Sotskov, Vladimir
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/010pmpe69
@@ -87,25 +103,9 @@ contributor:
   - identifier: https://ror.org/010pmpe69
     name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
     schemaKey: Affiliation
-  identifier: 0000-0002-2540-4402
-  includeInCitation: true
-  name: Rogozhnikova, Olga
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/010pmpe69
-    name: Institute for Advanced Brain Studies, Lomonosov Moscow State University
-    schemaKey: Affiliation
   identifier: 0009-0006-8084-735X
   includeInCitation: true
   name: Savelev, Nikita
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/01mvzn566
-    name: Center for Interdisciplinary Research in Biology, Collège de France
-    schemaKey: Affiliation
-  identifier: 0000-0002-1729-5744
-  includeInCitation: true
-  name: Sotskov, Vladimir
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/010pmpe69
