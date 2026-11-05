@@ -3,7 +3,10 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0003881
+  name: CA1 field of hippocampus
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -22,6 +25,27 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- identifier: 0000-0001-6637-2120
+  name: Pospelov, Nikita
+  schemaKey: Person
+- identifier: 0000-0002-2540-4402
+  name: Rogozhnikova, Olga
+  schemaKey: Person
+- identifier: 0000-0002-2454-1288
+  name: Ivanova, Anna
+  schemaKey: Person
+- identifier: 0000-0002-1729-5744
+  name: Sotskov, Vladimir
+  schemaKey: Person
+- identifier: 0000-0003-3081-2133
+  name: Toropova, Ksenia
+  schemaKey: Person
+- identifier: 0000-0002-1540-7677
+  name: Ivashkina, Olga
+  schemaKey: Person
+- identifier: 0000-0003-4437-6002
+  name: Anokhin, Konstantin
+  schemaKey: Person
 dateCreated: '2026-11-03T15:28:28.212273+00:00'
 description: 'We present a one-photon miniscope calcium-imaging dataset from dorsal
   hippocampal CA1 of mice (GCaMP6s, GRIN lens, UCLA Miniscope V4.4), comprising approximately
@@ -39,7 +63,12 @@ description: 'We present a one-photon miniscope calcium-imaging dataset from dor
   parameters, spatial footprints and traces of retained and rejected components, curation
   decisions, detected calcium events, cross-session neuronal matches and INTENSE mutual-information
   selectivity results.'
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: application № 159-а approved during the Bioethics Commission meeting
+    № 154-d held 17.08.2023
+  schemaKey: EthicsApproval
 id: DANDI:002047/draft
 identifier: DANDI:002047
 keywords:
@@ -66,12 +95,22 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002047/versions/draft/assets/
 name: Hippocampal CA1 one-photon calcium imaging and pose-tracked behavior in wild-type
   and 5xFAD mice across four behavioral paradigms
-relatedResource: []
+relatedResource:
+- name: DRIADA
+  relation: dcite:IsSupplementedBy
+  schemaKey: Resource
+  url: https://github.com/iabs-neuro/driada
+- name: BEARMIND
+  relation: dcite:IsCompiledBy
+  schemaKey: Resource
+  url: https://github.com/iabs-neuro/bearmind
+- name: SPHYNX
+  relation: dcite:IsCompiledBy
+  schemaKey: Resource
+  url: https://github.com/iabs-neuro/sphynx
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-studyTarget:
-- CA1 field of hippocampus
 url: https://dandiarchive.org/dandiset/002047/draft
 version: draft
 wasGeneratedBy: []
