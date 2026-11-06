@@ -49,8 +49,8 @@ assetsSummary:
 citation: Plusnin, Viktor; Rogozhnikova, Olga; Sotskov, Vladimir; Pospelov, Nikita;
   Ivanova, Anna; Savelev, Nikita; Toropova, Ksenia; Ivashkina, Olga; Anokhin, Konstantin
   (2026) Hippocampal CA1 one-photon calcium imaging and pose-tracked behavior in wild-type
-  and 5xFAD mice across four behavioral paradigms (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/002047/draft
+  and 5xFAD mice across four behavioral paradigms (Version 0.261106.0903) [Data set].
+  DANDI Archive. https://doi.org/10.48324/dandi.002047/0.261106.0903
 contributor:
 - affiliation:
   - identifier: https://ror.org/010pmpe69
@@ -136,6 +136,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-11-03T15:28:28.212273+00:00'
+datePublished: '2026-11-06T09:03:19.875313+00:00'
 description: 'We present a one-photon miniscope calcium-imaging dataset from dorsal
   hippocampal CA1 of mice (GCaMP6s, GRIN lens, UCLA Miniscope V4.4), comprising approximately
   27,700 unique neurons recorded in 201 sessions from 47 mice during open field free
@@ -152,13 +153,14 @@ description: 'We present a one-photon miniscope calcium-imaging dataset from dor
   parameters, spatial footprints and traces of retained and rejected components, curation
   decisions, detected calcium events, cross-session neuronal matches and INTENSE mutual-information
   selectivity results.'
+doi: 10.48324/dandi.002047/0.261106.0903
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: application № 159-a approved during the Bioethics Commission meeting
     № 154-d held 17.08.2023
   schemaKey: EthicsApproval
-id: DANDI:002047/draft
+id: DANDI:002047/0.261106.0903
 identifier: DANDI:002047
 keywords:
 - hippocampus
@@ -181,9 +183,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002047/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002047/0.261106.0903/assets.yaml
 name: Hippocampal CA1 one-photon calcium imaging and pose-tracked behavior in wild-type
   and 5xFAD mice across four behavioral paradigms
+publishedBy:
+  endDate: '2026-11-06T09:03:19.875313+00:00'
+  id: urn:uuid:ae352365-dfd4-4aa1-a084-42b6fe2a6f49
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-06T09:03:19.875313+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:82c0a05e-6f57-4148-b52c-8ae1d030e78e
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: DRIADA
   relation: dcite:IsSupplementedBy
@@ -200,6 +214,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/002047/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002047/0.261106.0903
+version: 0.261106.0903
 wasGeneratedBy: []
